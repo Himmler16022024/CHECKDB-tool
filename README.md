@@ -62,5 +62,6 @@ Ce projet est sous licence MIT. Vous êtes libre de l'utiliser, de le modifier e
 
 Auteurs 👥
 
-Développé par : Himmler
-Communauté : discord.gg/searchhub
+Développé par : Himmler / <@1131256234440392817>
+
+Communauté : https://discord.gg/searchhub

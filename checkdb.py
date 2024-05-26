@@ -43,15 +43,16 @@ def display_banner():
 def search_in_files(directory, query):
     results = []
     try:
-        completed_process = subprocess.run(['findstr', '/s', '/i', '/n', query, os.path.join(directory, '*.txt')], capture_output=True, text=True, shell=True)
+        command = f'rg -ia "{query}" {directory}'
+        completed_process = subprocess.run(command, capture_output=True, text=True, shell=True)
         output = completed_process.stdout.splitlines()
         for line in output:
             parts = line.split(':', 2)
-            if len(parts) == 3:
+            if len(parts) >= 2:
                 results.append({
                     'file': parts[0],
                     'line_number': parts[1],
-                    'line': parts[2]
+                    'line': parts[2] if len(parts) > 2 else ''
                 })
     except Exception as e:
         print(f"{Re} Error occurred: {str(e)}")

@@ -53,9 +53,9 @@ Ouvrez un terminal ou une invite de commande.
 Naviguez jusqu'au répertoire contenant le fichier checkdb.py.
 
 Exécutez le script avec la commande :
-
+```
 python checkdb.py
-
+```
 Le menu principal apparaîtra avec les options suivantes :
 
 [1] SEARCH 🔍 : Pour effectuer une recherche de texte dans les fichiers .txt.

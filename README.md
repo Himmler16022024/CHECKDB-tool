@@ -12,7 +12,7 @@ Affichage de bannière : Affiche une bannière personnalisée avec des options d
 
 Recherche de texte : recherche une correspondance de texte spécifique dans tous les fichiers .txt d'un Dossier donné.
 
-Affichage des résultats : Affiche les résultats de la recherche avec le nom du ou des fichier + le numero de là ligne ou la correspondance a étais trouver.
+Affichage des résultats : Affiche les résultats de la recherche avec le nom du ou des fichier + la correspondance avec votre recherche trouver.
 
 # Prérequis 📋
 
@@ -29,7 +29,7 @@ Clonez le dépôt ou téléchargez les fichiers sources.
 Assurez-vous d'avoir Python 3.x installé sur votre machine.
 
 Installez ripgrep en lançans votre terminale en administrateur puis executer cette commande.
-
+⚠️ IMPORTANT ⚠️
 windows : 
 ```
 choco install ripgrep
@@ -68,13 +68,13 @@ Entrez ce que vous voulez rechercher lorsque vous y êtes executer.
 
 Entrez le chemin du ou des dossier contenant les fichiers .txt.
 
-Les résultats s'afficheront, indiquant le fichier, le numéro de ligne et la ligne où la correspondance a été trouvée.
+Les résultats s'afficheront, indiquant le fichier, et là ligne où la correspondance a été trouvée.
 
 ![image](https://github.com/Himmler16022024/CHECKDB-tool/assets/170832176/053ac14a-5860-4548-94a8-f380b22a6777)
 
 # Note 📝
 
-L'outil utilise ripgrep pour effectuer la recherche sur les systèmes d'exploitation supportés. Assurez-vous que ripgrep est disponible et fonctionnel sur votre machine.
+L'outil utilise ripgrep pour effectuer la recherche sur les systèmes d'exploitation supportés. Assurez-vous que ripgrep est disponible et fonctionnel sur votre Ordinateur.
 
 # Licence 📝
 

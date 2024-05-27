@@ -28,8 +28,10 @@ Clonez le dépôt ou téléchargez les fichiers sources.
 
 Assurez-vous d'avoir Python 3.x installé sur votre machine.
 
+# ⚠️ IMPORTANT ⚠️
+
 Installez ripgrep en lançans votre terminale en administrateur puis executer cette commande.
-⚠️ IMPORTANT ⚠️
+
 windows : 
 ```
 choco install ripgrep
@@ -68,9 +70,10 @@ Entrez ce que vous voulez rechercher lorsque vous y êtes executer.
 
 Entrez le chemin du ou des dossier contenant les fichiers .txt.
 
-Les résultats s'afficheront, indiquant le fichier, et là ligne où la correspondance a été trouvée.
+Les résultats s'afficheront, indiquant le fichier, et là correspondance trouvée.
 
-![image](https://github.com/Himmler16022024/CHECKDB-tool/assets/170832176/053ac14a-5860-4548-94a8-f380b22a6777)
+![image](https://github.com/Himmler16022024/CHECKDB-tool/assets/170832176/22341cd1-5ee2-417c-bebb-ee784f6a597f)
+
 
 # Note 📝
 

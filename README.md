@@ -8,13 +8,11 @@ spécifiques au système d'exploitation pour fonctionner sur différentes platef
 
 # Fonctionnalités ✨
 
-Effacement de l'écran : Nettoie l'écran avant d'afficher de nouvelles informations, en fonction du système d'exploitation.
-
 Affichage de bannière : Affiche une bannière personnalisée avec des options de menu.
 
-Recherche de texte : Permet de rechercher une chaîne de texte spécifique dans tous les fichiers .txt d'un répertoire donné.
+Recherche de texte : Permet de rechercher une correspondance de texte spécifique dans tous les fichiers .txt d'un Dossier donné.
 
-Affichage des résultats : Affiche les résultats de la recherche avec les détails du fichier, du numéro de ligne et de la ligne contenant la chaîne recherchée.
+Affichage des résultats : Affiche les résultats de la recherche avec les détails du fichier, du numéro de ligne et de la ligne contenant la correspondance recherchée.
 
 # Prérequis 📋
 
@@ -66,11 +64,11 @@ Le menu principal apparaîtra avec les options suivantes :
 
 Sélectionnez l'option [1] SEARCH 🔍.
 
-Entrez la chaîne de recherche lorsque vous y êtes invité.
+Entrez ce que vous voulez rechercher lorsque vous y êtes executer.
 
-Entrez le chemin du répertoire contenant les fichiers .txt.
+Entrez le chemin du ou des dossier contenant les fichiers .txt.
 
-Les résultats s'afficheront à l'écran, indiquant le fichier, le numéro de ligne et la ligne où la chaîne a été trouvée.
+Les résultats s'afficheront, indiquant le fichier, le numéro de ligne et la ligne où la correspondance a été trouvée.
 
 # Note 📝
 
@@ -78,7 +76,7 @@ L'outil utilise ripgrep pour effectuer la recherche sur les systèmes d'exploita
 
 # Licence 📝
 
-Ce projet est sous licence MIT. Vous êtes libre de l'utiliser, de le modifier et de le distribuer, à condition de conserver la notice de copyright d'origine.
+Ce projet est sous licence MIT. Vous êtes libre de l'utiliser, de le modifier et de le distribuer, à condition de conserver la note de copyright d'origine.
 
 # Auteurs 👥  
 

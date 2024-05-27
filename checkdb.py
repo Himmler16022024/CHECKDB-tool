@@ -55,19 +55,18 @@ def search_in_files(directory, query):
                     'line': parts[2] if len(parts) > 2 else ''
                 })
     except Exception as e:
-        print(f"{Re} Error occurred: {str(e)}")
+        print(f"{Re} Une erreur est survenue : {str(e)}")
     return results
 
 def display_results(results):
     """Affiche les résultats de la recherche."""
-    print(f"\n {Wh}========== {Mage}CHECKDB RESULTS{Wh} ==========")
+    print(f"\n {Wh}========== {Mage}RÉSULTATS CHECKDB{Wh} ==========")
     if results:
         for result in results:
-            print(f"\n {Wh}File            :{Mage} {result['file']}")
-            print(f" {Wh}Line Number     :{Mage} {result['line_number']}")
-            print(f" {Wh}Line            :{Mage} {result['line']}")
+            print(f"\n {Wh}Fichier         :{Mage} {result['line_number']}")
+            print(f" {Wh}Resultat        :{Mage} {result['line']}")
     else:
-        print(f"{Re} No results found.")
+        print(f"{Re} Aucun résultat trouvé.")
 
 def main_menu():
     """Affiche le menu principal et gère les choix de l'utilisateur."""
@@ -83,11 +82,11 @@ def main_menu():
             input(f"\nAppuie sur entrer pour continuer...")
 
         elif input_user == '0':
-            print(f"\n  {Wh}[{Ye}!{Wh}] {Ye}Merci d'avoir utiliser le CHECKDB Tool!")
+            print(f"\n  {Wh}[{Ye}!{Wh}] {Ye}Merci d'avoir utilisé l'outil CHECKDB!")
             break
 
         else:
-            print(f" {Ye}Merci de choisir une Bonne OPTION !") 
+            print(f" {Ye}Merci de choisir une bonne option !") 
 
 if __name__ == '__main__':
     main_menu()

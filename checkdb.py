@@ -34,7 +34,7 @@ def display_banner():
                                                                              
                                                                             discord.gg/searchhub
                   
-            {Wh}         [~] C O D E   B Y   H I M M L E R [~]  
+                        {Wh}[~] C O D E   B Y   H I M M L E R [~]  
         
     {Wh}[ 1 ] {Mage}SEARCH
     {Wh}[ 0 ] {Mage}Exit

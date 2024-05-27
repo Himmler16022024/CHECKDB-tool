@@ -70,6 +70,8 @@ Entrez le chemin du ou des dossier contenant les fichiers .txt.
 
 Les résultats s'afficheront, indiquant le fichier, le numéro de ligne et la ligne où la correspondance a été trouvée.
 
+![image](https://github.com/Himmler16022024/CHECKDB-tool/assets/170832176/053ac14a-5860-4548-94a8-f380b22a6777)
+
 # Note 📝
 
 L'outil utilise ripgrep pour effectuer la recherche sur les systèmes d'exploitation supportés. Assurez-vous que ripgrep est disponible et fonctionnel sur votre machine.

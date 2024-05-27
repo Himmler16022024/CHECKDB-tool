@@ -10,9 +10,9 @@ spécifiques au système d'exploitation pour fonctionner sur différentes platef
 
 Affichage de bannière : Affiche une bannière personnalisée avec des options de menu.
 
-Recherche de texte : Permet de rechercher une correspondance de texte spécifique dans tous les fichiers .txt d'un Dossier donné.
+Recherche de texte : recherche une correspondance de texte spécifique dans tous les fichiers .txt d'un Dossier donné.
 
-Affichage des résultats : Affiche les résultats de la recherche avec les détails du fichier, du numéro de ligne et de la ligne contenant la correspondance recherchée.
+Affichage des résultats : Affiche les résultats de la recherche avec le nom du ou des fichier + le numero de là ligne ou la correspondance a étais trouver.
 
 # Prérequis 📋
 
